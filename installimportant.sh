@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Installing Firefox, Ark (zip decompressor), Git, and Rust..."
+echo "Installing Firefox, Ark (decompressor), Git, and Rust..."
 sudo pacman -S --needed ark firefox git rust
 
 echo "Installing base-devel..."
