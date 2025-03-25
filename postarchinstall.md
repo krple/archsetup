@@ -21,7 +21,7 @@ nano ~/.bashrc (or ~/.zshrc)
 APPEND:
 ```
 # add pkgclean alias for cleaning orphans and their configs.
-alias pkgclean='sudo pacman -Rns $(pacman -Qdtq)'
+alias pkgclean='sudo paru -Rns $(paru -Qdtq)'
 ```
 EXECUTE:
 `source ~/.bashrc`
