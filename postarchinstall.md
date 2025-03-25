@@ -25,3 +25,7 @@ alias pkgclean='sudo paru -Rns $(paru -Qdtq)'
 ```
 EXECUTE:
 `source ~/.bashrc`
+
+# replace dmenu with rofi
+`pacman -S rofi`
+`pacman -Rns dmenu`
