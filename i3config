@@ -14,7 +14,7 @@
 ########################
 
 # execute kitty when mod+enter is pressed
-bindsym $mod+Return exec i3-kitty
+bindsym $mod+Return exec kitty
 
 # start poly bar at launch
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
