@@ -9,6 +9,16 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+########################
+# MODIFIED ITEMS BELOW #
+########################
+
+# execute kitty when mod+enter is pressed
+bindsym $mod+Return exec i3-kitty
+
+# start poly bar at launch
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -48,8 +58,6 @@ floating_modifier $mod
 # or left-clicking anywhere into the window while holding the floating modifier.
 tiling_drag modifier titlebar
 
-# start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
 
 # kill focused window
 bindsym $mod+Shift+q kill
