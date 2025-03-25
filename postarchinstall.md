@@ -14,13 +14,13 @@ rm paru
 # remove orphaned packages and their configuration files: 
 `sudo pacman -Rns $(pacman -Qdtq)`
 
-# create `pkg-clean` alias:
+# create `pkgclean` alias:
 ```
 nano ~/.bashrc (or ~/.zshrc)
 ```
 APPEND:
 ```
-alias pkg-clean='sudo pacman -Rns $(pacman -Qdtq)'
+alias pkgclean='sudo pacman -Rns $(pacman -Qdtq)'
 ```
 EXECUTE:
 `source ~/.bashrc`
