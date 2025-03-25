@@ -5,3 +5,4 @@ personal script to be run after using archinstall
 _postarchinstall.md_
 and
 **_archinstallnotes.md_****
+and i3config
