@@ -28,4 +28,5 @@ EXECUTE:
 
 # replace dmenu with rofi
 `pacman -S rofi`
+
 `pacman -Rns dmenu`
