@@ -22,3 +22,4 @@ APPEND:
 ```
 alias pkg-autoremove='sudo pacman -Rns $(pacman -Qdtq)'
 ```
+`source ~/.bashrc`
