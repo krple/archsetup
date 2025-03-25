@@ -3,6 +3,7 @@
 
 # install paru (aur/flatpak manager)
 ```
+sudo pacman -S git
 sudo pacman -S --needed base-devel
 git clone https://aur.archlinux.org/paru.git`
 cd paru
