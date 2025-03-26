@@ -1,5 +1,10 @@
 # it is recommeneded to follow these steps in order, certain things will break otherwise.
 
+# **TODO:**
+
+[ ] ADD REMINDER TO USE THE `i3` `picom` `polybar` AND `rofi` CONFIGS PROVIDED IN THIS REPO
+
+
 # remove vim and xterm
 `sudo pacman -R vim xterm`
 
