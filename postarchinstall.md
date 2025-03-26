@@ -33,5 +33,5 @@ EXECUTE:
 
 # move picom config
 ```
-mv /usr/share/doc/picom/examples/picom.sample.conf /home/user
+mv /usr/share/doc/picom/examples/picom.sample.conf /home/user/.config/picom
 ```
