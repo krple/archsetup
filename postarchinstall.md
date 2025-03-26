@@ -1,3 +1,5 @@
+# it is recommeneded to follow these steps in order, certain things will break otherwise.
+
 # remove vim and xterm
 `sudo pacman -R vim xterm`
 
@@ -35,3 +37,14 @@ EXECUTE:
 ```
 mv /usr/share/doc/picom/examples/picom.sample.conf /home/user/.config/picom
 ```
+
+# replace firefox with librewolf 
+`sudo paru -Rns libxss firefox`
+
+build it (recommended):
+
+`sudo paru -S librewolf-bin`
+
+binary:
+
+`sudo paru -S librewolf-bin`
