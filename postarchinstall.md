@@ -30,3 +30,8 @@ EXECUTE:
 `pacman -S rofi`
 
 `pacman -Rns dmenu`
+
+# move picom config
+```
+mv /usr/share/doc/picom/examples/picom.sample.conf /home/user
+```
